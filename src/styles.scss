@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+html, body { height: 100%; }
+body { 
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif; 
+    background-color: #555;
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.round-borders {
+    border-radius: 20px;
+}
+
+.shadow {
+    filter: drop-shadow(0 5px 4px rgba(0, 0, 0, 0.1));
+}

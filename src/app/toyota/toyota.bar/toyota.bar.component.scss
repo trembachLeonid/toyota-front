@@ -1,0 +1,73 @@
+.table-style {
+    margin-left:auto; 
+    margin-right:auto;
+}
+.container {
+    height: auto;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-position: 97% 15px;
+    background-size: 40%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.text-props {
+    font-family: 'Open Sans Hebrew';
+    font-style: normal;
+    line-height: 33px;
+}
+
+.color-size {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.text-position {
+    position: relative;
+    padding: 8% 8%;
+    height: 44px;
+    top: 57px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.numbers {
+    top: 105px;
+}
+
+.show-numbers {
+    position: relative;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.numbers-position {
+    padding: 0 8%;
+}
+
+.numbers-size {
+    font-size: 22px;
+}
+
+hr { 
+    position: absolute;
+    left: 0%;
+    display: block;
+    width: 100%;
+    border: #f2f2f2, solid;
+    border-top: 2px;
+}
+
+.description-box {
+    position: relative;
+    float: right;
+}
+
+.numbers-box {
+    position: relative;
+    float: left;
+}

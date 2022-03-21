@@ -1,0 +1,63 @@
+.toyotas-background {
+    position: absolute;
+    background-color: #f2f2f2;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 100%;
+    margin-top: 28px;
+}
+
+.container {
+    position: absolute;
+    width: 100%;
+    top: 142px;
+}
+
+.add-button {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 20px;
+    font-size: 20px;
+    margin-bottom: 0px;
+    width: 300px;
+    border: 0;
+    height: 50px;
+}
+
+p {
+    font-size: 12px;
+    text-align: center;
+    color:#7c7c7c;
+}
+
+.text-container {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.add-car {
+    width: 100%;
+    position: absolute;
+    margin-top: 50px;
+    background-color: #f2f2f2;
+}
+
+.colors-container {
+    display: grid;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 340px;
+    height: auto;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-bottom: 24px;
+}

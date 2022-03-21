@@ -1,0 +1,14 @@
+
+<div class="container">
+    <div class="toyotas-background">
+        <div class="toyotas">
+        <app-toyota-bar *ngFor="let item of colorArray; let currIndex=index"
+            [colorId]="currIndex+1"
+            [color]="item"
+        >
+
+        </app-toyota-bar>
+        </div>
+    </div>
+    <app-add-button class="add-button"></app-add-button>
+</div>

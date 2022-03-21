@@ -1,0 +1,24 @@
+<div class="container">
+    <div class="toyotas-background">
+        <div class="add-car">
+            <input type="text" class="round-borders shadow" placeholder="ВК 0000">
+            <p>номер</p>
+
+            <input type="text" class="round-borders shadow" placeholder="Темно-сіра">
+            <p>опис</p>
+
+            <div class="colors-container">
+                <app-choose-color *ngFor="let item of colorArray; let currIndex=index"
+                    [style.grid-column]="currIndex % 2 == 1 ? 2 : 1"
+                    [colorId]="currIndex+1"
+                    [color]="item">
+                </app-choose-color>
+            </div>
+
+            <input type="button" class="round-borders shadow">
+        </div>
+
+
+    </div>
+    <app-add-button class="add-button"></app-add-button>
+</div>

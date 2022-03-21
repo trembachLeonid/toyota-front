@@ -1,0 +1,19 @@
+<div (click)="onClick()"
+    [style.background-image]="colorUrl"
+    class="container round-borders shadow"
+    aria-disabled
+>
+    <div class="text-position">
+    <p class="text-props color-size">
+        {{color}}
+    </p>
+    </div>
+
+    <div *ngIf="isExtended" class="numbers">
+        <hr>
+        <div *ngFor="let toyota of toyotas" class="show-numbers">
+            <span class="numbers-position text-props numbers-size">{{ toyota.number }}</span>
+            <span class="numbers-position text-props numbers-size" style="position:absolute; right:0">{{ toyota.description ?? "" }}</span>
+        </div>
+    </div>
+</div>

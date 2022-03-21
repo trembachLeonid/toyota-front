@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 591.721 612.567" xmlns="http://www.w3.org/2000/svg">
+  <rect x="263.797" y="0.897" width="72" height="591.189" style="stroke: rgba(0, 0, 0, 0); fill: rgb(102, 102, 102);" rx="36" ry="36" transform="matrix(0, 0, 0, 1, 263.797001, 0)"/>
+  <rect x="263.863" y="13.386" width="72" height="590.748" style="stroke: rgba(0, 0, 0, 0); fill: rgb(102, 102, 102);" transform="matrix(0, 0, -1, 0, 604.353891, 267.34055)" rx="36" ry="36"/>
+  <rect y="250" width="590.898" height="100" style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 32px; stroke: rgba(102, 102, 102, 0); fill: rgb(119, 119, 119);" rx="50" ry="50"/>
+  <rect x="20.513" y="460.714" width="590.898" height="100" style="stroke-linecap: round; stroke-linejoin: round; stroke-width: 32px; stroke: rgba(102, 102, 102, 0); fill: rgb(119, 119, 119);" rx="50" ry="50" transform="matrix(0, 1, -1, 0, 810.714001, -20.513001)"/>
+</svg>
